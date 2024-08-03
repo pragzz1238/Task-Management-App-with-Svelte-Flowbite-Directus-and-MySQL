@@ -103,3 +103,7 @@ Ensure you have the following installed:
 
 - **Frontend**: Provides a user-friendly interface for managing tasks. Use the provided forms to add, update, and delete tasks.
 - **Backend**: Manages tasks and user authentication. Ensure that Directus is properly configured to handle CRUD operations for tasks and user roles.
+
+## Troubleshooting
+
+If you encounter any issues during setup or usage, please refer to the [project documentation](https://docs.google.com/document/d/1Qi_enhhbSwvz8Y9sT7ZzBHy_yb7YmhH9/edit?usp=sharing&ouid=113151971144209721830&rtpof=true&sd=true) for detailed instructions and troubleshooting tips.
