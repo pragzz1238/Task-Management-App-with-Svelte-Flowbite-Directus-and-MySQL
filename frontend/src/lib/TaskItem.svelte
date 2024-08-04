@@ -10,7 +10,7 @@
     switch (status) {
       case "in-progress":
         return "bg-yellow-500";
-      case "To Do":
+      case "to-do":
         return "bg-red-600";
       case "done":
         return "bg-green-500";

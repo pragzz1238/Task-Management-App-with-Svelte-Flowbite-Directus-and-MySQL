@@ -31,7 +31,7 @@
         <Input
           type="email"
           bind:value={email}
-          placeholder="name@company.com"
+          placeholder="yourname@gmail.com"
           required
         />
       </Label>
@@ -40,31 +40,31 @@
         <Input
           type="password"
           bind:value={password}
-          placeholder="•••••"
+          placeholder="•••••••"
           required
         />
       </Label>
-      <div class="flex items-start">
+      <!-- <div class="flex items-start">
         <Checkbox>Remember me</Checkbox>
         <a
           href="/"
           class="ms-auto text-sm text-primary-700 hover:underline dark:text-primary-500"
           >Lost password?</a
         >
-      </div>
+      </div> -->
       <Button type="submit" class="w-full hover:bg-primary-700 hover:text-white"
         >Login to your account</Button
       >
       {#if errorMessage}
         <p class="text-red-500">{errorMessage}</p>
       {/if}
-      <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
+      <!-- <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
         Not registered? <a
           href="/register"
           class="text-primary-700 hover:underline dark:text-primary-500"
           >Create account</a
         >
-      </div>
+      </div> -->
     </form>
   </Card>
 </div>
