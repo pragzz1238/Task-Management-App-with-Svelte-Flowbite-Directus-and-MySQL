@@ -25,8 +25,8 @@ Ensure you have the following installed:
 
 1. **Clone the Repository**:
     ```sh
-    git clone <repository-url>
-    cd <repository-folder>
+    git clone https://github.com/pragzz1238/Task-Management-App-with-Svelte-Flowbite-Directus-and-MySQL.git
+    cd Task-Management-App-with-Svelte-Flowbite-Directus-and-MySQL
     ```
 
 2. **Navigate to the Backend Directory**:
