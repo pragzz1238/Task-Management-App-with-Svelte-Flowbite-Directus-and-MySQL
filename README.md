@@ -60,7 +60,10 @@ Ensure you have the following installed:
     ```sh
     npx directus start
     ```
-
+     
+7. **Configure Directus for Task Management**:
+    - Follow the steps in [Section 4 of the project documentation](link-to-documentation#section-4) to configure Directus for task management. This includes setting up collections, fields, and roles necessary for managing tasks.
+      
 ### Frontend Setup
 
 1. **Navigate to the Frontend Directory**:
