@@ -62,7 +62,7 @@ Ensure you have the following installed:
     ```
      
 7. **Configure Directus for Task Management**:
-    - Follow the steps in [Section 4 of the project documentation](link-to-documentation#section-4) to configure Directus for task management. This includes setting up collections, fields, and roles necessary for managing tasks.
+    - Follow the steps in [Section 4 of the project documentation](https://docs.google.com/document/d/1Qi_enhhbSwvz8Y9sT7ZzBHy_yb7YmhH9/edit?usp=sharing&ouid=113151971144209721830&rtpof=true&sd=true) to configure Directus for task management. This includes setting up collections, fields, and roles necessary for managing tasks.
       
 ### Frontend Setup
 
