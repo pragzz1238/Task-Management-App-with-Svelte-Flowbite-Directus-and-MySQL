@@ -1,4 +1,4 @@
-# Task Management App
+# Task Management App with Svelte Flowbite Directus and MySQL
 
 This project is a task management application built with Directus, MySQL, Svelte, and Flowbite. It includes a backend configured with Directus for managing tasks and user authentication, and a frontend using Svelte and Flowbite for a responsive user interface.
 
