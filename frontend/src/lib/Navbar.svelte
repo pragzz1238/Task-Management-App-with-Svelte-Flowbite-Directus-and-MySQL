@@ -3,6 +3,7 @@
     import { BellActiveAltOutline } from 'flowbite-svelte-icons';
 
     export let handleLogout;
+    export let tasks;
 
     const email = sessionStorage.getItem('userEmail');
     const username = sessionStorage.getItem('username');
@@ -15,6 +16,7 @@
         <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">TaskTrack</span>
     </NavBrand>
     <div class="flex items-center md:order-2 space-x-6 relative">
+        
         <Avatar id="avatar-menu" src="/images/profile.png" class="cursor-pointer" />
         <NavHamburger class1="w-full md:flex md:w-auto md:order-1" />
     </div>
