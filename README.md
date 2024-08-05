@@ -1,4 +1,4 @@
-# Task Management App
+# Task Management App with Svelte Flowbite Directus and MySQL
 
 This project is a task management application built with Directus, MySQL, Svelte, and Flowbite. It includes a backend configured with Directus for managing tasks and user authentication, and a frontend using Svelte and Flowbite for a responsive user interface.
 
@@ -25,8 +25,8 @@ Ensure you have the following installed:
 
 1. **Clone the Repository**:
     ```sh
-    git clone <repository-url>
-    cd <repository-folder>
+    git clone https://github.com/pragzz1238/Task-Management-App-with-Svelte-Flowbite-Directus-and-MySQL.git
+    cd Task-Management-App-with-Svelte-Flowbite-Directus-and-MySQL
     ```
 
 2. **Navigate to the Backend Directory**:
@@ -60,7 +60,10 @@ Ensure you have the following installed:
     ```sh
     npx directus start
     ```
-
+     
+7. **Configure Directus for Task Management**:
+    - Follow the steps in [Section 4 of the project documentation](https://docs.google.com/document/d/1Qi_enhhbSwvz8Y9sT7ZzBHy_yb7YmhH9/edit?usp=sharing&ouid=113151971144209721830&rtpof=true&sd=true) to configure Directus for task management. This includes setting up collections, fields, and roles necessary for managing tasks.
+      
 ### Frontend Setup
 
 1. **Navigate to the Frontend Directory**:
