@@ -29,11 +29,3 @@
     </Dropdown>
 </Navbar>
 
-<style>
-
-/* Tooltip styling */
-.group:hover .group-hover\:block {
-  display: block;
-  top:3rem;
-}
-</style>
