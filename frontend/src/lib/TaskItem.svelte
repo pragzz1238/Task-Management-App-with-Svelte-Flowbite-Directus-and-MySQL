@@ -2,7 +2,7 @@
     export let task;
     export let handleDeleteTask;
     export let handleEditTask;
-    import { Card, Dropdown, DropdownItem, Avatar, Button } from 'flowbite-svelte';
+    import { Card, Button } from 'flowbite-svelte';
 
     console.log(task.status);
 
@@ -18,6 +18,10 @@
         return "bg-gray-500";
     }
   }
+  function formatDate(dateString) {
+        const date = new Date(dateString);
+        return date.toLocaleDateString();  
+    }
 
   </script>
   
@@ -34,6 +38,9 @@
       <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
         {task.description}
       </p>
+      <h6 class="mb-2 text-l font-semibold tracking-tight text-gray-900 dark:text-white">
+        Due Date: {formatDate(task.due_date)}
+      </h6>      
       <div class="flex mt-4 space-x-3 rtl:space-x-reverse lg:mt-6">
         <Button on:click={() => handleEditTask(task.id)} color="yellow" outline class="dark:text-white">Edit</Button>
         <Button on:click={() => handleDeleteTask(task.id)} color="red">Delete</Button>

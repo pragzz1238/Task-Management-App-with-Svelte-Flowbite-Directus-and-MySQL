@@ -1,6 +1,6 @@
 <script>
   import { Card, Button, Label, Input, Checkbox } from "flowbite-svelte";
-  import "../app.css"; // Ensure this is imported
+  import "../app.css";
   import { login } from "../config/auth";
   import {push} from 'svelte-spa-router'
 

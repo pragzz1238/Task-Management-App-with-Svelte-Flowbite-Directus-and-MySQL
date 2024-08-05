@@ -5,20 +5,17 @@
   export let handleEditTask;
   export let isEditing = false;
 
-  $: console.log('New Task in Form:', newTask);
 
-  function handleSubmit(event) {
+  function TestData(event) {
   event.preventDefault();
   if (isEditing) {
-    console.log('Editing Task:', newTask.id);
     handleEditTask(newTask.id,newTask);
   } else {
-    console.log('Adding Task:', newTask);
     handleAddTask();
   }
   
 }
-function handleSubmit1(event) {
+function handleSubmit(event) {
     event.preventDefault();
     handleAddTask(newTask.id,newTask); 
   }
@@ -26,7 +23,7 @@ function handleSubmit1(event) {
 
 {#if isEditing}
   <!-- Edit Task Form -->
-<form on:submit|preventDefault={handleSubmit1} class="space-y-6 p-6 bg-white rounded-lg w-full max-w-lg">
+<form on:submit|preventDefault={handleSubmit} class="space-y-6 p-6 bg-white rounded-lg w-full max-w-lg">
   <h2 class="text-2xl font-bold mb-4 text-gray-800">Edit Task</h2>
 
   <div class="flex flex-col space-y-4">
@@ -45,7 +42,7 @@ function handleSubmit1(event) {
 
 {:else}
   <!-- Add New Task Form -->
-  <form on:submit|preventDefault={handleSubmit1} class="space-y-6 p-6 bg-white rounded-lg w-full max-w-lg">
+  <form on:submit|preventDefault={handleSubmit} class="space-y-6 p-6 bg-white rounded-lg w-full max-w-lg">
     <h2 class="text-2xl font-bold mb-4 text-gray-800">Add New Task</h2>
 
     <div class="flex flex-col space-y-4">

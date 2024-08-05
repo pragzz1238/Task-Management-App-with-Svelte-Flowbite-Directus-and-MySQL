@@ -1,12 +1,11 @@
 <script>
   import TaskForm from "./TaskForm.svelte";
-  import TaskList from "./TaskList.svelte";
-
   import Navbar from "./Navbar.svelte";
   import { isAuthenticated, logout } from "../config/auth";
   import { onMount } from "svelte";
   import Sidebar from "./Sidebar.svelte";
   import Home from "./Home.svelte";
+  import TaskListTable from "./TaskListTable.svelte";
   let tasks = [];
   let loading = true;
   let isEditing = false;
@@ -191,7 +190,7 @@
     }
   }
 
-  export async function handleLogout() {
+  async function handleLogout() {
     await logout();
     window.location.href = "/";
   }
@@ -219,7 +218,7 @@
             </button>
           </div>
           
-          <Home {tasks} {handleDeleteTask} {handleEditTask}/>
+          <TaskListTable {tasks} {handleDeleteTask} {handleEditTask} />
         </div>
       {/if}
       

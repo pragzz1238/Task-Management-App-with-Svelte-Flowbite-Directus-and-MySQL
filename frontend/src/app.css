@@ -5,3 +5,7 @@
 @tailwind utilities;
 
 /* Your custom styles here */
+
+body {
+    background-color: #f0f0f0; 
+  }

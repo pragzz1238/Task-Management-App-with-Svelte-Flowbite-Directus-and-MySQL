@@ -1,4 +1,3 @@
-const flowbitePlugin = require('flowbite/plugin');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -23,5 +22,9 @@ module.exports = {
       }
     }
   },
-  plugins: [flowbitePlugin]
+  plugins: [
+  require('flowbite/plugin')({
+      charts: true,
+  }),
+]
 };
