@@ -16,7 +16,7 @@ This project is a task management application built with Directus, MySQL, Svelte
 Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (version 18)
-- [MySQL](https://www.mysql.com/) (version 8 or later)
+- [MySQL](https://dev.mysql.com/downloads/mysql/) (version 8 or later)
 - [Postman](https://www.postman.com/downloads/) (for testing API endpoints)
 
 ## Setup and Installation
