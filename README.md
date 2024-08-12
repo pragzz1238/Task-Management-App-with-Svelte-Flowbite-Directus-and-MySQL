@@ -55,6 +55,10 @@ Ensure you have the following installed:
     ```sh
     npx create-directus-project .
     ```
+    (or)
+     ```sh
+    npx directus init
+    ```
 
 6. **Start the Directus Server**:
     ```sh
